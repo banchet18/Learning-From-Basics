@@ -8,5 +8,21 @@
   margin: auto;
   width: 900px;
   height: 100vh;
+}
+
+#navbar {
+  border: 2px solid red;
+  width: 700px;
+  margin: auto;
+
+  margin-top: 20px;
+  display: flex;
+  padding: 10px;
+  padding-right: 50px;
+  justify-content: space-between;
   background-color: gainsboro;
+}
+.navigation {
+  font-size: 20px;
+  font-weight: 600;
 }
