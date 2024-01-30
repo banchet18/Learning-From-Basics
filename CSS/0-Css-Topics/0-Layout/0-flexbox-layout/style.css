@@ -4,17 +4,14 @@
   box-sizing: border-box;
 }
 #container {
-  border: 2px solid black;
   margin: auto;
   width: 900px;
   height: 100vh;
 }
 
 #navbar {
-  border: 2px solid red;
   width: 700px;
   margin: auto;
-
   margin-top: 20px;
   display: flex;
   padding: 10px;
@@ -25,4 +22,19 @@
 .navigation {
   font-size: 20px;
   font-weight: 600;
+}
+#mainSection {
+  width: 700px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+.box {
+  width: 125px;
+  height: 125px;
+  background-color: gainsboro;
 }
