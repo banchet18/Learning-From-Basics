@@ -5,17 +5,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Css units</title>
     <style>
-      /* percentage, px */
-
       .fifty {
         width: 50%;
       }
-      .hundred {
-        width: 100px;
+      .fifty-vw {
+        width: 50vw;
+      }
+      .twenty-five {
+        height: 20vh;
       }
       .parent {
         width: 135px;
         border: 2px solid black;
+        margin-top: 50px;
       }
       .box {
         background-color: red;
@@ -30,10 +32,13 @@
   </head>
   <body>
     <div class="box fifty">50%</div>
-    <div class="box hundred">100px</div>
+    <div class="box fifty-vw">50vw</div>
+    <div class="box twenty-five">25vh</div>
+
     <div class="parent">
       <div class="box fifty">50%</div>
-      <div class="box hundred">100px</div>
+      <div class="box fifty-vw">50vw</div>
+      <div class="box twenty-five">25vh</div>
     </div>
   </body>
 </html>
