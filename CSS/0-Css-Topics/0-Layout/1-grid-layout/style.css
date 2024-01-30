@@ -13,7 +13,8 @@
   width: 700px;
   margin: auto;
   margin-top: 20px;
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
   padding: 10px;
   padding-right: 50px;
   justify-content: space-between;
@@ -22,19 +23,22 @@
 .navigation {
   font-size: 20px;
   font-weight: 600;
+  display: grid;
+  justify-content: flex-end;
 }
 #mainSection {
   width: 700px;
   margin: auto;
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
   justify-content: space-between;
   align-items: center;
   gap: 20px;
-  flex-wrap: wrap;
+  /* flex-wrap: wrap; */
   margin-top: 20px;
 }
 .box {
-  width: 125px;
+  width: 160px;
   height: 125px;
   background-color: gainsboro;
 }
@@ -42,14 +46,15 @@
 #thirdSection {
   width: 700px;
   margin: auto;
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
   justify-content: space-between;
   margin-top: 20px;
   flex-wrap: wrap;
   gap: 20px;
 }
 .largebox {
-  width: 200px;
+  width: 220px;
   height: 200px;
   background-color: gainsboro;
 }
@@ -59,9 +64,12 @@
   margin: auto;
   background-color: gainsboro;
   margin-top: 20px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
   padding: 10px;
   font-size: 20px;
+}
+.footerp {
+  display: grid;
+  justify-content: center;
 }
