@@ -40,7 +40,28 @@
 }
 
 #thirdSection {
-  border: 2px solid black;
   width: 700px;
   margin: auto;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.largebox {
+  width: 200px;
+  height: 200px;
+  background-color: gainsboro;
+}
+
+#footer {
+  width: 700px;
+  margin: auto;
+  background-color: gainsboro;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  font-size: 20px;
 }
