@@ -5,16 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Css units</title>
     <style>
-      /* percentage, vw, vh, px  */
-
-      .fifty {
-        width: 50%;
+      .two-rem {
+        font-size: 2rem;
       }
-      .fifty-vw {
-        width: 50vw;
-      }
-      .twenty-five {
-        height: 20vh;
+      .two-em {
+        font-size: 2em;
       }
       .parent {
         width: 135px;
@@ -33,14 +28,16 @@
     </style>
   </head>
   <body>
-    <div class="box fifty">50%</div>
-    <div class="box fifty-vw">50vw</div>
-    <div class="box twenty-five">25vh</div>
-
+    <div class="one-rem">1rem</div>
+    <div class="one-em">1em</div>
+    <div class="two-rem">2rem</div>
+    <div class="two-em">2em</div>
+    <hr />
     <div class="parent">
-      <div class="box fifty">50%</div>
-      <div class="box fifty-vw">50vw</div>
-      <div class="box twenty-five">25vh</div>
+      <div class="one-rem">1rem</div>
+      <div class="one-em">1em</div>
+      <div class="two-rem">2rem</div>
+      <div class="two-em">2em</div>
     </div>
   </body>
 </html>
