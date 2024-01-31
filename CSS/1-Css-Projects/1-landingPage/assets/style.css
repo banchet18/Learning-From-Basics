@@ -148,7 +148,7 @@ main p {
   margin-bottom: 54px;
 }
 
-/* @media screen and (max-width: 1400px) {
+@media screen and (max-width: 1400px) {
   .header {
     width: 90%;
     padding-top: 20px;
@@ -239,4 +239,4 @@ main p {
   .buttons button {
     padding: 16px 25px;
   }
-} */
+}
